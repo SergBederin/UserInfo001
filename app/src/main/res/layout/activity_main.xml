@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textPersonName"
         android:text="Name" />
 
     <TextView
@@ -36,12 +36,13 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="dd.mm.yyyy"/>
+        android:text="yyyy"/>
 
     <Button
         android:id="@+id/btnGoMsg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_go" />
+        android:text="@string/btn_go"
+        android:onClick="goDoit"/>
 
 </LinearLayout>
